@@ -1,0 +1,32 @@
+CNN
+
+Feature Extraction / Classification
+
+Feature Extraction
+특징을 추출한다
+즉, 특징을 추출하는 곳이다
+모양이 가지는 특정한 패턴
+새로 예를 들면 날개 패턴이 있고 특정한 선이 있는 것을 뽑아낸다
+
+
+Classfication
+예측을 하는 것이다
+
+Feature Extraction 에는
+1)Convolution Layer
+가져온 특징들을 합성한다
+검은색들은 음수나 0이 되고 하얀 부분들이 컴퓨터가 잡아낸
+특징들이다
+2)Pooling Layer(Max Pooling)
+특징들을 뽑아서 중요한것들 수치가 높은 것들만
+하나씩 반으로 줄인다
+3)Activitation Function(ReLU)
+특징 뽑아낸 것에 0 이하인 것들은 다 제거한다
+
+이 세가지가 반복된다
+
+Fully Connected
+특징잡아내서 예측을 한것의 결과를 잡아내는 것이다
+정답이 나오는 것이라고 할 수 있다
+
+
